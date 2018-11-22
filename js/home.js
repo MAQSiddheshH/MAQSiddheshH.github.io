@@ -44,7 +44,7 @@ function loadNewsMain(sResponse_news, sResponse_blog) {
 }
 function renderNewsMain() {
 
-    var iStart, iEnd, entry1_news = [], entry1_blog = [], sDate_news = [], SDate_blog = [], oDatePart = [], oDate, iTotalNews = 0, iNumber;
+    var iStart, iEnd, entry1_news, entry1_blog, sDate_news, SDate_blog, oDatePart, oDate, iTotalNews = 0, iNumber;
     //debugger;
     if (typeof oNewsData !== "undefined" || typeof oBlogData !== "undefined" ) {
         iEnd_news = oNewsData.getElementsByTagName('entry').length;
@@ -102,11 +102,13 @@ function renderNewsMain() {
             }
 
             var title = entry1.getElementsByTagName('title')[0].childNodes[0].nodeValue;
+            var STag = entry1.getElementsByTagName('category')[0].attributes["term"].nodeValue.toUpperCase() + " | ";
 
             for (iCount = 0; iCount < iTotal; iCount++) {
                 title = title.replace(oItalicBookName[iCount], "<i class = 'SemiBold'>" + oItalicBookName[iCount] + "</i>");
             }
 
+            $("#stag" + iNumber).html(STag);
             $("#newstitle" + iNumber).html(title);
             $("#newsimg" + iNumber).attr('src', src);
         }
