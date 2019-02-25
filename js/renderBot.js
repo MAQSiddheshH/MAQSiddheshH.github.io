@@ -175,6 +175,8 @@ function renderBot(directLineKey, botSecret) {
     $('#sendMsg').on('click', function () {
         document.getElementsByClassName("limitText")[0].textContent = (100) + "/" + 100;
     });
+    hideBot();
+   
 }
 
 function openInNewTab(url) {
@@ -460,5 +462,9 @@ function limitTextSpan() {
 $(document).ready(
     function () {
         renderBot('SFk22dhgRb0.cwA.yxU.2_rl9MP2nw6gVKIU7FCdK89kHN4ZAAv4NTK5eezKKoM', 'mrvkVFBJ681#ekoNME02%=^');
+        $(window).scroll(function () {
+            $(".scroll-top").remove();
+        });
     }
+      
     );
