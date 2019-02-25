@@ -1101,8 +1101,8 @@ html {
 	}
 
 		#chatBotTray table tr:hover {
-			background-color: #04DAA9;
-			color: #fff;
+			background-color: #F0F0F0;
+            color: #000;
 		}
 
 		#chatBotTray table td p {
