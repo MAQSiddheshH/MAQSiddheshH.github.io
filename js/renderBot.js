@@ -176,6 +176,16 @@ function renderBot(directLineKey, botSecret) {
         document.getElementsByClassName("limitText")[0].textContent = (100) + "/" + 100;
     });
     hideBot();
+    window.onclick = function (event) {
+        var chatBotTrayHandle = document.getElementById("chatBotTrayHandle");
+        if (chatBotTrayHandle.getAttribute("aria-expanded") == "true") {
+            chatBotTrayHandle.setAttribute("aria-expanded", "false");
+            var chatBotTray = document.getElementById("chatBotTray");
+            chatBotTray.classList.remove("open");
+        }
+
+
+    }
    
 }
 
