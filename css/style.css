@@ -5293,6 +5293,9 @@ ul.project-detail-block, .project-detail-block ul {
         border-bottom: 1px solid white !important;
     }
 
+    #viewAllVisuals {
+        height:auto;
+    }
     /* Contact US page changes*/
 
     #Addresses > .row:first-child > div{
