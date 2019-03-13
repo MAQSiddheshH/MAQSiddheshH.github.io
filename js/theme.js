@@ -229,7 +229,8 @@ function PowerBIsliderConfig() {
 function PowerBIVisualsConfig() {
     $.getJSON("/PowerBI visuals/Visuals.json", function (data) {
         RenderPowerBIVisuals(data);
-    })
+    });
+    containerGridMasonry();
 };
 function RenderMartech() {
     $("#modelmartech").modal();
