@@ -5294,7 +5294,7 @@ ul.project-detail-block, .project-detail-block ul {
     }
 
     #viewAllVisuals {
-        height:auto;
+        height:auto !important;
     }
     /* Contact US page changes*/
 
