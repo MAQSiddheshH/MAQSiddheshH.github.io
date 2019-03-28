@@ -1,6 +1,6 @@
 ﻿var parent, span, spanimg, header, limitCount, sendList, sendButton,
     eElement, headerDiv, bottext, botinnertext, botimg, crossimg, limitP, limitText, feedback,
-    maxImg, ClearImg, exportDiv, emailChat, chatBoxFlag, CaseImg, botConnection, user, feedbackButtons, crossDiv, caseDiv, clearDiv, emailDiv, maxDiv, suggestedActions;
+    maxImg, ClearImg, exportDiv, emailChat, chatBoxFlag, CaseImg, botConnection, user, feedbackButtons, crossDiv, caseDiv, clearDiv, emailDiv, maxDiv,IsHeaderClicked, suggestedActions;
 
 
 
@@ -12,7 +12,9 @@ function renderBot(directLineKey, botSecret) {
     botConnection = new BotChat.DirectLine(
         {
             token: 'SFk22dhgRb0.cwA.yxU.2_rl9MP2nw6gVKIU7FCdK89kHN4ZAAv4NTK5eezKKoM',
-            webSocket: false
+            webSocket: true,
+            sendTyping: true
+            
         });
 
     BotChat.App(
@@ -277,12 +279,36 @@ function hideBot() {
         if (feedback.textContent.includes("👎") || feedback.textContent.includes("👍")) {
             feedback.style.display = "none";
             setTimeout(showfeedback, 2500);
+
         }
     }
 
 
     //bot gets open when set to 0
     if (chatBoxFlag === 0) {
+        if (IsHeaderClicked === 0) {
+
+            var urlCurrent = window.location.href;
+
+            var UrlSplitted = urlCurrent.split('/');
+
+            var currentPage = UrlSplitted[UrlSplitted.length - 1];
+
+            ga('send', {
+
+                hitType: 'click',
+
+                eventCategory: 'bot-' + currentPage,
+
+                eventAction: 'open',
+
+                eventLabel: 'maqbot'
+
+            });
+
+            IsHeaderClicked = 1;
+
+        }
         document.getElementsByClassName('wc-chatview-panel')[0].classList.remove('wc-chatview-panel-closed');
         document.getElementsByClassName('wc-message-pane')[0].classList.remove('hideElement');
         document.getElementsByClassName('wc-console')[0].classList.remove('hideElement');
