@@ -5283,6 +5283,10 @@ ul.project-detail-block, .project-detail-block ul {
     margin-bottom: 10px;
 }
 
+#viewAllVisuals{
+    height:auto;
+}
+
 @media(max-width:767px) {
     #tabs .nav-tabs {
         border-bottom: 1px solid #f1f1f1 !important;
@@ -5293,9 +5297,6 @@ ul.project-detail-block, .project-detail-block ul {
         border-bottom: 1px solid white !important;
     }
 
-    #viewAllVisuals {
-        height:auto !important;
-    }
     /* Contact US page changes*/
 
     #Addresses > .row:first-child > div{
@@ -6046,4 +6047,11 @@ li.h4header {
     font-family: "Raleway",sans-serif;
     color: black;
     text-transform: capitalize;
+}
+
+.modal_videos
+{
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    object-position: top;
 }
