@@ -271,11 +271,11 @@ function RenderMartech() {
         viewAllContainer.append(viewAllContentHtml);
         $(document).on('shown.bs.modal', '#modelChart .product_view', function () {
             $("#PowerBISliderVisual").trigger('stop.owl.autoplay');
-            $(this).find(".modal_videos").play();
+            $(this).find(".modal_videos")[0].play();
         });
         $(document).on('hidden.bs.modal', '#modelChart .product_view', function () {
             $("#PowerBISliderVisual").trigger('play.owl.autoplay');
-            $(this).find(".modal_videos").stop();
+            $(this).find(".modal_videos")[0].pause();
         });
     }
     function sliderAll(oSliderConfig) {
