@@ -4135,6 +4135,10 @@ ul.project-detail-block, .project-detail-block ul {
             margin-right: 3px;
         }
 
+        .blog-post .post-meta > span {
+            color: #767676
+        }
+
     .blog-post .post-header h5, .blog-post .post-header h4, .blog-post .post-header h3 {
         margin-top: 5px;
         margin-bottom: 20px;
@@ -5661,6 +5665,7 @@ ul.nav-tabs {
 
 .linkedin-share-button > span, .linkedin-share-button > span > span {
     vertical-align: bottom !important;
+    margin-bottom: 0.15em !important;
 }
 
 .caseImage {
@@ -6047,6 +6052,11 @@ li.h4header {
     font-family: "Raleway",sans-serif;
     color: black;
     text-transform: capitalize;
+}
+
+.blog-date
+{
+    color: #767676
 }
 
 .modal_videos
