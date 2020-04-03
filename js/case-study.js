@@ -9,31 +9,41 @@
     iIterator = 0
 
 function renderCaseStudy() {
-    var entry1, sDataFilter, sAnchorCaseStudy, sImageLink, sCaseStudyTitle, oimgSource;
+    var entry1, aCategoryFilters, sCategoryFilter, aCategoryHTML, sAnchorCaseStudy, sImageLink, sCaseStudyTitle, oimgSource;
     var parser = new DOMParser();
     oCaseStudyContainer.removeClass(sLoadingClass);
     if (iTotalCaseStudy) {
-        
+
         for (iIterator = 0; iIterator < iTotalCaseStudy; iIterator++) {
             entry1 = oCaseStudyData.getElementsByTagName('entry').item(iIterator);
             sAnchorCaseStudy = entry1.getElementsByTagName('link')[2].getAttribute('href');
             imgSource = $('<div/>').html(entry1.getElementsByTagName('content')[0].innerHTML).text()
             imgSource = parser.parseFromString(imgSource, "text/html");
-            sDataFilter = entry1.getElementsByTagName('category')[0].getAttribute('term');
+            aCategoryFilters = [];
+            aCategoryHTML = $.map(entry1.getElementsByTagName('category'), function (el) {
+                var sTerm = el.getAttribute("term");
+                if (sTerm === "Case Study") {
+                    return "";
+                }
+
+                sCategoryFilter = sTerm.replace(/\s+/, "").toLowerCase();
+                aCategoryFilters.push(sCategoryFilter);
+                return "<span><a class='blogcategories' data-filter='." + sCategoryFilter + "'>" + sTerm + "</a></span>";
+            });
             sImageLink = imgSource.getElementsByTagName('img')[0].getAttribute('src');
             sCaseStudyTitle = entry1.getElementsByTagName('title')[0].childNodes[0].nodeValue;
             if (entry1) {
-                sCaseStudyTitle = entry1.getElementsByTagName('title')[0].childNodes[0].nodeValue;
-                if (sCaseStudyTitle.includes("Case Study")) {
-                    var oCaseStudyEntry = "<div class='col-md-6 col-sm-6 nf-item spacing-grid powerbi'>"
+                if (entry1.innerHTML.includes("term=\"Case Study\"")) {
+                    var oCaseStudyEntry = "<div class='col-md-6 col-sm-6 nf-item spacing-grid " + aCategoryFilters.join(" ") + "'>"
                        + "<div class='blog-post'>"
                           + "<div class='post-media'>"
                               + "<a href='" + sAnchorCaseStudy + "'> <img class='item-container' src='" + sImageLink + "' alt='Case Study' /></a> "
                             + "</div>"
                            + " <div class='post-header'>"
-                            + " <h5><a href=" + sAnchorCaseStudy + "'> " + sCaseStudyTitle + "</a></h5>"
+                            + " <h5><a href=" + sAnchorCaseStudy + "> " + sCaseStudyTitle + "</a></h5>"
                             + "</div>"
-                           + "<div class='post-tag pull-left'><span><a class='blogcategories' data-filter='.powerbi'>" + sDataFilter + "</a> </span></div>"
+
+                           + "<div class='post-tag pull-left'>" + aCategoryHTML.join("") + "</div>"
                            + "<div class='post-more-link pull-right'><a href='" + sAnchorCaseStudy + "'>Read More<i class='fa fa-long-arrow-right right'></i></a></div>"
                        + "</div>"
                        + "</div>"
@@ -50,9 +60,6 @@ function loadCaseStudy(sCaseStudyData) {
         oCaseStudyData = parser.parseFromString(sCaseStudyData, "text/xml");
         iTotalCaseStudy = oCaseStudyData.getElementsByTagName('entry').length;
         if (iTotalCaseStudy || oCaseStudyData.getElementsByTagName('content')) {
-            iMaxPageIndex = Math.round(iTotalCaseStudy / 6);
-            //iMaxPageIndex = Math.round(iTotalCaseStudy / oNewsPager.pagesize);
-            $("#Pagination").show();
             renderCaseStudy();
         }
     } catch (ignore) {
@@ -61,7 +68,8 @@ function loadCaseStudy(sCaseStudyData) {
 
 function loadBloggerGrid() {
     oCaseStudyContainer.html("").addClass(sLoadingClass);
-    getBloggerData('https://www.blogger.com/feeds/3262801613185975083/posts/default/-/Blog?max-results=999', getBlogSuccess, getBlogOnComplete);
+    $("#loadingicon").html("").addClass("CaseStudyLoading");
+    getBloggerData('https://www.blogger.com/feeds/3262801613185975083/posts/default?max-results=999', getBlogSuccess, getBlogOnComplete);
 }
 
 function getBlogSuccess(sResponse) {
@@ -71,4 +79,10 @@ function getBlogSuccess(sResponse) {
 
 function getBlogOnComplete() {
     oCaseStudyContainer.removeClass(sLoadingClass);
+    $("#loadingicon").hide();
+
+    // We need to destroy existing initialized isotope
+    // to re-initialize it in containerGridMasonry()
+    $('.container-grid').isotope('destroy');
+    containerGridMasonry();
 }

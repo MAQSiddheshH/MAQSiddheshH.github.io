@@ -108,7 +108,7 @@ function loadBlogs(sBlogsData) {
 }
 function loadBlogsGrid() {
     oBlogsContainer.html("").addClass(sLoadingClass);
-    getBloggerData('https://www.blogger.com/feeds/3262801613185975083/posts/default?max-results=999', getBlogsSuccess, getBlogsOnComplete);
+    getBloggerData('https://www.blogger.com/feeds/3262801613185975083/posts/default/-/Blog?max-results=999', getBlogsSuccess, getBlogsOnComplete);
 }
 function getBlogsSuccess(sResponse) {
     var iTop;
@@ -153,11 +153,10 @@ function blogsConstructor() {
                 }
             } else {
                 oBlogsPager.pageIndex++;
+                $("#Previous").removeClass("hidden");
                 if (oBlogsPager.pageIndex >= iMaxPageIndex) {
                     oBlogsPager.pageIndex = iMaxPageIndex;
                     $("#Next").addClass("hidden");
-                } else {
-                    $("#Previous").removeClass("hidden");
                 }
             }
             oBlogsContainer.html("").addClass(sLoadingClass);

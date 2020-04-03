@@ -402,6 +402,19 @@ button {
     vertical-align: top;
 }
 
+.Container-button{
+    display:inline;
+    float:right;
+}
+
+.try_pbi{
+    /*float:left;*/
+}
+
+.readmore_pbi{
+    /*float:right;*/
+}
+
 .btn-full {
     width: 100% !important;
     display: inline-block;
@@ -448,6 +461,32 @@ button {
         /*background: #323232;*/
         background: rgba(50,50,50,0.85);
     }
+
+.btn-black_try {
+    color: #fff;
+    background: #323232;
+    border: none;
+}
+
+    .btn-black_try:hover {
+        color: #fff;
+        /*background: #323232;*/
+        background: #D3D3D3;
+    }
+
+.try_export_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.btn_try_export {
+    margin: 0;
+}
+
+.try_export {
+    margin-right: 10px;
+}
 
 .btn-color-a, .btn-color-b {
     color: #fff;
@@ -3430,7 +3469,6 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
     height: 100%;
 }
 
-
 @media (max-width: 767px) {
     .inner-intro .container {
         width: 100%;
@@ -5255,10 +5293,16 @@ ul.project-detail-block, .project-detail-block ul {
     content: url(/img/loading.GIF); 
     height: 60%;
     width: 30%;
-    /*no-repeat center center;*/
 }
 
-#LoadPageNews,#LoadPageBlogs {
+.CaseStudyLoading{
+    content: url(/img/loading.GIF); 
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#LoadPageNews, #LoadPageBlogs {
     min-height: 500px;
     height: auto !important;
     height: 500px;
