@@ -228,7 +228,7 @@ function PowerBIsliderConfig() {
 };
 function PowerBIVisualsConfig() {
     $.getJSON("/PowerBI visuals/Visuals.json", function (data) {
-        RenderPowerBIVisuals(data);    
+        RenderPowerBIVisuals(data);
     })
 };
 function RenderMartech() {
@@ -265,7 +265,7 @@ function RenderMartech() {
                     .replace(/@url/g, oVisualConfig[index][this].url)
                     .replace(/@category/g, oVisualConfig[index][this].category)
                     .replace(/@description/g, oVisualConfig[index][this].description)
-                    .replace(/@certifiedstarimage/g, oVisualConfig[index][this].certifiedstarimage)
+                    .replace(/@certifiedstarimage/g, oVisualConfig[index][this].certifiedstarimage);
             })
         });
         visualContentContainer.append(visualContentHtml);
