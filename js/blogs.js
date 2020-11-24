@@ -200,9 +200,8 @@ function renderCaseStudy() {
             });
             sImageLink = imgSource.getElementsByTagName('img')[0].getAttribute('src');
             sCaseStudyTitle = entry1.getElementsByTagName('title')[0].childNodes[0].nodeValue;
-            if (entry1) {
-                //if (entry1.innerHTML.includes("term=\"Case Study\"")) {
-                var oCaseStudyEntry = "<div class='col-md-6 col-sm-6 nf-item spacing-grid " + aCategoryFilters.join(" ") + "'>"
+            if (entry1) {                
+                var oCaseStudyEntry = "<div class='col-md-4 col-sm-4 nf-item spacing-grid " + aCategoryFilters.join(" ") + "'>"
                    + "<div class='blog-post'>"
                       + "<div class='post-media'>"
                           + "<a href='" + sAnchorCaseStudy + "'> <img class='item-container' style='height:100%;width:100%;' src='" + sImageLink + "' alt='Case Study' /></a> "
@@ -215,8 +214,7 @@ function renderCaseStudy() {
                        + "<div class='post-more-link pull-right'><a href='" + sAnchorCaseStudy + "'>Read More<i class='fa fa-long-arrow-right right'></i></a></div>"
                    + "</div>"
                    + "</div>"
-                oCaseStudyContainer.append(oCaseStudyEntry);
-                //}
+                oCaseStudyContainer.append(oCaseStudyEntry);              
             }
         }
     }
@@ -254,4 +252,3 @@ function getBlogOnComplete() {
     $('.container-grid').isotope('destroy');
     containerGridMasonry();
 }
-
