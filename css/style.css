@@ -1625,6 +1625,12 @@ form label.error {
     display: inline-block;
 }
 
+.logo2 {
+    float: left;
+    text-align: left;
+    display: block;
+}
+
     .logo a {
         width: 145px;
         display: block;
@@ -1694,10 +1700,9 @@ form label.error {
 .nav-menu ul.nav-menu-inner li a {
     font-family: inherit;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1;
     font-weight: 600;
-    text-transform: uppercase;
     outline: none;
     letter-spacing: 1px;
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -2698,7 +2703,7 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 /*-------------------------------------------------------------------------------------------*/
 .features-box-left, .features-box-right {
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
     margin-bottom: 20px;
     margin-top: 5px;
 }
@@ -5878,6 +5883,11 @@ li.h4header {
 
 .underlined {
     text-decoration: underline;
+}
+
+a.underlined-red:hover {
+    text-decoration: underline;
+    text-decoration-color: #BE1D23;
 }
 
 .blog-post .post-header h5 {
