@@ -357,4 +357,14 @@
 <script>
     loadPlugins();
     loadNewsMainPage();
+    document.addEventListener('readystatechange', event => {
+        // When window loaded ( external resources are loaded too- `css`,`src`, etc...)
+        if (event.target.readyState === "complete") {
+            var PrevPage = sessionStorage.getItem('PrevPage');
+            if(PrevPage === "Our Clients")
+            {
+                document.querySelector('#ourClients').scrollIntoView({ behavior: 'smooth' })
+            }
+        }
+    });
 </script>
