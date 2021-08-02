@@ -407,6 +407,11 @@ button {
     float:right;
 }
 
+.Container-button-powerbi{
+    display:inline;
+    float:left;
+}
+
 .try_pbi{
     /*float:left;*/
 }
@@ -1583,6 +1588,21 @@ form label.error {
     opacity: 1;
 }
 
+.sustainability-green-color{
+    color:#629677;
+}
+
+.sustainability-down-arrow:before{
+    top: auto;
+    bottom: -16px;
+	left: 8px !important;
+	right: auto;
+    border-right: 16px solid transparent !important;
+    border-top: 0px solid @gray-light !important;
+    border-bottom: 15px solid @gray-light !important;
+    border-left: 16px solid transparent !important;
+}
+
 @media all and (min-width: 1025px) {
 
     /*header nav style*/
@@ -1620,6 +1640,9 @@ form label.error {
     }
     .case-study-header-image{
         padding: 0px !important;
+    }
+    .col-lg-3{
+        max-width:20% !important;
     }
 }
 
@@ -6067,6 +6090,13 @@ a.underlined-red:hover {
     background-color:#3F6986;
     height:5pt;
     width:70%;
+    margin-left: 0px;
+}
+
+.sustainability-summary-ruler{
+    background-color:#629677;
+    height:7pt;
+    width:25%;
     margin-left: 0px;
 }
 

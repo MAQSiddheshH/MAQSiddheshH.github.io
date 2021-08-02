@@ -43,7 +43,7 @@
     <link rel="icon" type="image/png" href="/img/favicon.ico">
     <link rel="apple-touch-icon" href="/img/favicon.ico">
     <!-- CSS -->
-    <link href="/css/style.css?v=20210114" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css?v=20210603" rel="stylesheet" type="text/css" />
     <link href="/css/bootstrap.min.css?v=20170822" rel="stylesheet" type="text/css" />
     <link href="/css/font-awesome.css?v=20170822" rel="stylesheet" type="text/css" />
     <link href="/css/ionicons.css?v=20170822" rel="stylesheet" type="text/css" />
@@ -195,7 +195,7 @@
                                         <code>Ratio = IF([Total Rows] > 10, SUM(Revenue) /[Total Rows], 0)</code>
                                         <ul><li>Because measures are calculated continuously, the [Total Rows] expression is calculated twice: first for the condition check, then for the true condition expression.</li></ul>
                                     </li>
-                                    <li>Incorrect DAX:<br />
+                                    <li>Correct DAX:<br />
                                         <code>VAR totalRows = [Total Rows];
                                         Ratio = IF(totalRows > 10, SUM(Revenue) / totalRows,0)
                                         </code>
