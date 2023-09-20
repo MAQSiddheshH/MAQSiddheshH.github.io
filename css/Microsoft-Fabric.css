@@ -34,3 +34,29 @@
         .dot.active {
             background-color: #333;
         }
+
+        .rowFabric{
+            max-width: 175rem;
+        }
+
+        .flexFabric {
+            width: 100%;
+            display: contents;
+        }
+
+        .paddingLeftFabric {
+            padding-left: 10%;
+            padding-right: 2.5%;
+        }
+
+        .paddingRightFabric {
+            padding-left: 2.5%;
+            padding-right: 10%;
+        }
+
+        .FabricBlog {
+            padding-left: 0%;
+            padding-right: 0%;
+            padding-bottom: 20px;
+           
+        }
