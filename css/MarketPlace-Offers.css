@@ -76,7 +76,7 @@
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .containerButton{
@@ -96,13 +96,6 @@
 
 .MarketPlaceGrid{
     padding-left: 20px;
-    position: relative;
-}
-
-.MarketPlaceGridLearnMore{
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 30px !important;
 }
 
 
