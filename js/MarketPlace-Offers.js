@@ -29,7 +29,6 @@ const data = [
     Content: "LoadFAST provides an automated solution to capture, analyze, and optimize the page load time (PLT) of your reports.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/maqsoftware.powerbiloadanalyzer?tab=Overview"
   },
-
   {
     category: "consulting",
     Heading: "Admin Center of Excellence: 2-Day Workshop",
@@ -39,13 +38,13 @@ const data = [
   {
     category: "consulting",
     Heading: "Advanced Data Analytics with Power BI: 3-Day Workshop",
-    Content: "During our workshop, you will learn how to transform and model data using advanced calculations.",
+    Content: "Elevate your data analytics capabilities with a 3-day Power BI workshop.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.advanced_data_analytics_with_powerbi_workshop?page=1&exp=ubp8&search=maq"
   },
   {
     category: "consulting",
     Heading: "Advanced Data Modeling with Power BI: 3-Day Workshop",
-    Content: "With EmbedFAST, you can unlock a suite of powerful features that elevate your workflow.",
+    Content: "Deepen your data modeling expertise in a 3-day Power BI workshop.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/maqsoftware.embedfastpowerbi?tab=Overview"
   },
   {
@@ -57,7 +56,7 @@ const data = [
   {
     category: "consulting",
     Heading: "Power Platform: Free 2-Hour Briefing",
-    Content: "Power Platform tools are low-code/no-code solutions that enable organizations to drive their digital transformation journey.",
+    Content: "Explore the capabilities of the Power Platform in a complimentary 2-hour briefing.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.power_platform_2_hours_consultation?page=1&exp=ubp8&search=maq"
   },
   {
@@ -69,7 +68,7 @@ const data = [
   {
     category: "consulting",
     Heading: "Power Platform CoE Starter Kit: 3-Week Workshop",
-    Content: "To ensure your organization remains both efficient and secure, you need to effectively govern all Power Platform assets.",
+    Content: "Launch your Power Platform Center of Excellence with a comprehensive 3-week program.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.power_platform_coe_starter_kit?page=1&exp=ubp8&search=maq"
   },
   {
@@ -96,138 +95,136 @@ const data = [
     Content: "MAQ Software has over a decade's experience in data management, data visualization, and insights generation. Our four-week implementation engagement will provide you an overview of Microsoft Customer Insights.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.customer_insights_4wk_implementation?page=1&search=maq&product=dynamics-365"
   },
-
-
   {
     category: "powerbi",
     Heading: "Admin Center of Excellence: 2-Day Workshop",
-    Content: "Power BI offers multiple ways to access data, implement security, and share reports.",
+    Content: "Establish an Administration Center of Excellence with a comprehensive 2-day workshop and optimize your administrative workflows.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.admincoe?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
-    Heading: "Advanced Visualization with Power BI:1-Day Workshop",
-    Content: "Leverage your core base of Power BI knowledge to dive deep into the world of advanced visualizatio",
+    Heading: "Advanced Visualization with Power BI: 1-Day Workshop",
+    Content: "Improve your Power BI visualization skills in a comprehensive 1-day workshop.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.advanced_diad?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Custom Power BI Visuals: 1-Hour Briefing",
-    Content: "Discuss Custom visual requirements, configurations and business rules for visualization",
+    Content: "Learn about the power of custom Power BI visuals in a concise 1-hour briefing and discover how you can unlock more insights.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.customvisualbriefing?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Custom Power BI Visuals: 2-Week Proof of Concept",
-    Content: "Collaborate with business stakeholders to understand the visual requirements",
+    Content: "Explore the creation of custom Power BI visuals in a 2-week proof of concept, improving data storytelling.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.maqsoftware_customvisual_offering?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Data Migration Strategy for Power BI: 2-Week workshop",
-    Content: "Help you lay the right foundation for data driven culture across the organization.",
+    Content: "Develop a robust data migration strategy for Power BI in a 2-week workshop, ensuring data integrity for your organization.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.migrationstrategy2?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Data Viz Center of Excellence: 2-Day Workshop",
-    Content: "Take this professional program designed by our Power BI experts and UX designers and learn about the latest features in Power BI.",
+    Content: "Establish a Data Visualization Center of Excellence in a comprehensive 2-day workshop.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.datavizcoe?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
-    Heading: "Export Power BI to PPT Tool: 1-Hr Briefing",
-    Content: "With our tool, you can download a polished PowerPoint presentation populated with any Power BI reports and visuals you want to highlight.",
+    Heading: "Export Power BI to PPT Tool: 1-Hour Briefing",
+    Content: "Master the art of exporting Power BI to PowerPoint in this focused 1-hour session.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.maqpowerbiexporttoppt?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
-    Heading: "Free Center of Excellence: 1 Hour Briefing",
-    Content: "With our tool, you can download a polished PowerPoint presentation populated with any Power BI reports and visuals you want to highlight.",
+    Heading: "Center of Excellence: Free 1-Hour Briefing",
+    Content: "Gain insights into establishing a Center of Excellence for Power BI in a free 1-hour briefing.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.coebriefing?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
-    Heading: "Free Migrate Qlik to Power BI: 2-Hr Briefing",
-    Content: "After better understanding your requirements, we will create a Power BI report with a Direct Query model.",
+    Heading: "Migrate Qlik to Power BI: Free 2-Hour Briefing",
+    Content: "Learn about the process of migrating from Qlik to Power BI in a complimentary 2-hour briefing.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.qlikpbibasicmigration2?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
-    Heading: "Migrate Qlik to Power BI: 3 Week Implementation",
-    Content: "Landing a new tool right the first time is critical for successful adoption.",
+    Heading: "Migrate Qlik to Power BI: 3-Week Implementation",
+    Content: "Migrate from Qlik to Power BI efficiently in 3 weeks, ensuring seamless data representation.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.qlikpbibasicmigration2?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Migrate Qlik to Power BI: 6-Week Implementation",
-    Content: "Change is hard, so ensuring a smooth transition to a new tool is critical for successful adoption.",
+    Content: "Make a smooth migration from Qlik to Power BI with a customized 6-week implementation.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.qlikpbipromigration?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Migrate Tableau to Power BI: 3 Week Implementation",
-    Content: "After better understanding your requirements, we will create a Power BI report with a Direct Query model,",
+    Content: "Seamlessly transition from Tableau to Power BI with a streamlined 3-week implementation.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.tableaupbibasicmigration?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Migrate Tableau to Power BI: Free 2-Hr Briefing",
-    Content: "Our team of Power BI experts will consider your existing data sources and IT policies to ensure we come up with a solution that's right for you.",
+    Content: "Discover the benefits of migrating from Tableau to Power BI in a concise 2-hour briefing.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.tableaumigrationdiscovery?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Power BI Adoption: 1-Day Assessment",
-    Content: "We are recognized for our expertise in implementing business intelligence and analytics solutions.",
+    Content: "Evaluate your Power BI adoption in a 1-day assessment, ensuring you harness the platform's full potential.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.maqsoftware_powerbiadoption_1day?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Power BI COE: 10-Week Implementation",
-    Content: "A Center of Excellence (CoE) is a team that provides guidance, training, and expertise on specific subject matters.",
+    Content: "Establish a Power BI Center of Excellence in a 10-week implementation, ensuring data excellence.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.power_bi_coe?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Power BI Governance Reports: 4-Week implementation",
-    Content: "Our Power BI Governance reports track your organization's Power BI adoption details and usage patterns for reports across all workspaces.",
+    Content: "Implement Power BI governance reports in a 4-week process, ensuring data compliance.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.powerbi_governance?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Power BI Performance Improvement: 1-Day Assessment",
-    Content: "Through this assessment, we will help you create a roadmap to improve the performance of your reports and dashboards.",
+    Content: "Assess and optimize your Power BI performance in a 1-day session, improving data processing.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.powerbiperformanceimprovement?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Power BI Performance Improvement: 3-Week Workshop",
-    Content: "Imagine having the tools and insights to make data-driven decisions that can transform your business.",
+    Content: "Improve Power BI performance in a comprehensive 3-week workshop, ensuring efficiency for your organization.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.threedayazuresynapseworkshop?search=Maq&page=1"
   },
   {
     category: "powerbi",
-    Heading: "Power BI Performance Optimization: 1 Week Workshop",
-    Content: "Power BI performance can make or break a business' data-driven culture. High-performing reports enable business users to make data-based decisions that benefit your business in the long term.",
+    Heading: "Power BI Performance Optimization: 1-Week Workshop",
+    Content: "Improve Power BI performance in a 1-week workshop, elevating your data analysis.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.maq_power_bi_performance_improvement_1week?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
-    Heading: "Tableau to Power BI: 6 Week Implementation",
-    Content: "Migrating your reports to a new platform can be time-consuming and complex. The most common challenges large organizations face are slow reports, unintuitive dashboards, and low adoption.",
+    Heading: "Tableau to Power BI: 6-Week Implementation",
+    Content: "Migrate from Tableau to Power BI in a streamlined 6-week process, ensuring a seamless transition.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.tableaupbipromigration?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerbi",
     Heading: "Virtual Dashboard In A Day (DIAD): 8-Hr Workshop",
-    Content: "Power BI is a powerful self-service data visualization platform that enables you to centralize and share data for faster insights.",
+    Content: "Build virtual dashboards in an 8-hour workshop, improving data visualization and insights.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.virtualdiad?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerplatform",
     Heading: "Workflow Management Power App: 1-Week Implementation",
-    Content: "Effectively collaborating across departments can be difficult. With competing priorities, varied schedules, and the ever-present need for back-and-forth communication.",
+    Content: "Streamline workflow management with a 1-week Power App implementation, ensuring efficient processes.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.exit_tracker_3?page=1&exp=ubp8&search=maq"
   },
   {
@@ -239,13 +236,13 @@ const data = [
   {
     category: "powerplatform",
     Heading: "Power Platform CoE: Free 1-Hour Briefing",
-    Content: "Power Platform enables organizations to take ownership of their digital transformation. With intuitive, low-code tools to build apps, automate processes, implement chatbots, and visualize data.",
+    Content: "Learn about the benefits of establishing a Power Platform Center of Excellence in a complimentary 1-hour briefing.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.powerplatform_coe-free_1-hr_consultation?page=1&exp=ubp8&search=maq"
   },
   {
     category: "powerplatform",
     Heading: "Power Platform: 1-Hour Assessment",
-    Content: "Power Platform tools enable large-scale organizations to improve their operations and champion the creativity of citizen developers.",
+    Content: "Evaluate the potential of the Power Platform in a concise 1-hour assessment.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.power_platform_1_hour_assessment?page=1&exp=ubp8&search=maq"
   },
   {
@@ -257,242 +254,237 @@ const data = [
   {
     category: "powerplatform",
     Heading: "Power Platform: App in a Day",
-    Content: "Our workshop enables developers to create professional apps. We will build off your existing skills using traditional business applications like Excel and PowerPoint.",
+    Content: "Discover the potential of the Power Platform in a one-day immersive program.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.power_platform_app_in_a_day?page=1&search=maq&product=power-platform&sortBy=Popularity"
   },
   {
     category: "dynamics",
     Heading: "Dynamics 365 Security Audit: 2-Day Assessment",
-    Content: "In an era of remote work and global data breaches, data security is a key priority for all businesses.",
+    Content: "Assess the security of your Dynamics 365 system with a concise 2-day audit, ensuring data protection.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.dynamics_security_assessment?page=1&search=maq&product=dynamics-365"
   },
   {
     category: "dynamics",
     Heading: "Dynamic Routing Rules: 4-Week Implementation",
-    Content: "A routing rule consists of a set of conditions and a destination user/team. Routing rules ensure that records are automatically routed to the right people at the right time.",
+    Content: "Implement dynamic routing rules in a 4-week process, improving workflow management.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.dynamic_routing_rules?page=1&search=maq&product=dynamics-365"
   },
   {
     category: "dynamics",
-    Heading: "Customer Insights: 4 week Implementation",
-    Content: "MAQ Software has over a decade's experience in data management, data visualization, and insights generation. Our four-week implementation engagement will provide you an overview of Microsoft Customer Insights.",
+    Heading: "Customer Insights: 4-Week Implementation",
+    Content: "Implement customer insights solutions in just 4 weeks, improving customer engagement and satisfaction.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.customer_insights_4wk_implementation?page=1&search=maq&product=dynamics-365"
   },
   {
     category: "dynamics",
     Heading: "Migration to Unified Interface: 2-Day Assessment",
-    Content: "Unified Interface is the new presentation interface for all applications in Dynamics 365 Customer Engagement, replacing the legacy web interface.",
+    Content: "Streamline your migration to the unified interface with a 2-day assessment, ensuring a seamless transition.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.unified_interface_assessment?page=1&search=maq&product=dynamics-365"
   },
   {
     category: "azure",
     Heading: "Modern BI Architecture Migration: 2-Week Assessment",
-    Content: "At MAQ Software, we understand the challenges and opportunities presented by modern BI. Our 2-week assessment is your gateway to unlocking the true power of data analytics.",
+    Content: "Explore modern BI architecture migration with a 2-week assessment, ensuring efficient data management.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.cloud_migration_2wk_assessment?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Cloud Migration: 1-Week Assessment",
-    Content: "Migrating to the cloud will provide a more efficient future for your business, but the process is not always easy. The migration journey can be filled with bottlenecks and uncertainties.",
+    Content: "Plan your cloud migration with a 1-week assessment, ensuring a smooth transition to the cloud.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.cloud_migration_assessment?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Azure Cost optimization: 3-Week Assessment",
-    Content: "Do you want to maximize your cloud investment and drive efficiency? Optimizing your Azure costs without compromising performance can be achieved with our Azure cost assessment.",
+    Content: "Optimize your Azure costs with a 3-week assessment, ensuring cost-efficient cloud operations.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.azurecostoptimization?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Azure Synapse: 2-Week Proof of Concept",
-    Content: "Elevate your data analytics capabilities today. Azure Synapse Analytics is a crucial business tool that empowers organizations to harness their data for competitive advantage.",
+    Content: "Dive into Azure Synapse with a 2-week proof of concept, exploring its capabilities for your data needs.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.synapse_poc?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Azure Synapse Analytics: 2-Hour briefing",
-    Content: "Our Azure Synapse Analytics briefing is designed to do more than just inform you about the technology; it's a journey towards transforming your data into a strategic asset.",
+    Content: "Gain a comprehensive overview of Azure Synapse Analytics in a concise 2-hour briefing.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.synapse_briefing?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Advanced Azure Synapse Analytics: 3-Day Workshop",
-    Content: "Azure Synapse Analytics is a crucial business tool that empowers organizations to harness their data for competitive advantage.",
+    Content: "Elevate your Azure Synapse Analytics skills in a 3-day workshop, improving data processing and insights.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.threedayazuresynapseworkshop?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Azure Synapse Analytics in a Day: 8-Hour Workshop",
-    Content: "Our intensive Azure Synapse Analytics workshop is designed to do more than just inform you about the technology.",
+    Content: "Discover the capabilities of Azure Synapse Analytics in an 8-hour workshop, improving data analytics.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.aidworkshop?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Modern Data Warehouse Architecture: 4-Week Assessment",
-    Content: "Our four-week Modern Data Warehouse assessment service analyzes cost and performance gaps in your current on-premises or hybrid cloud architecture.",
+    Content: "Optimize your data warehouse architecture with a 4-week assessment, ensuring efficiency and scalability.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.dw_architecture_assessment?search=Maq&page=1"
   },
   {
     category: "azure",
     Heading: "Azure DevOps using GitHub: 1-week Assessment",
-    Content: "Join us for our exclusive 1-week assessment, where we do not just talk about tech - we provide real solutions to your development challenges.",
+    Content: "Explore Azure DevOps with GitHub in a concise 1-week assessment, improving your software development processes.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.azuredevopsusinggithub-preview?tab=Overview&flightCodes=azuredevopsusinggithub"
   },
   {
     category: "aiml",
     Heading: "Forecasting Machine Learning Model: 4-Week Implementation",
-    Content: "Our team will evaluate your current business needs, help you choose the right Azure resources, and analyze key metrics.",
+    Content: "Implement a forecasting machine learning model in just 4 weeks, improving decision-making and predictions.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.forecasting_4_week_implementation?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Text Analytics Engine: 2-Week Proof of Concept",
-    Content: "Imagine turning unstructured text data into actionable insights to make data-driven decisions that drive business growth.",
+    Content: "Harness the potential of text analytics with a 2-week proof of concept, deriving valuable insights from unstructured data.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.textanalyticsengine?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "AI & ML for Power BI: 1-Day Workshop",
-    Content: "Uncover insights and make predictions that will be helpful for your businesses. This comprehensive workshop covers the concepts, techniques, and tools of AI (Artificial Intelligence) and ML (Machine Learning).",
+    Content: "Unlock the power of AI and ML in Power BI in a 1-day workshop, improving data-driven insights.",
     link: "https://appsource.microsoft.com/en-US/marketplace/consulting-services/maqsoftware.aimlforpowerbi1dayworkshop?page=1&exp=ubp8&search=maq"
   },
   {
     category: "aiml",
     Heading: "MLOps: 10-Week Implementation",
-    Content: "At MAQ Software, we are here to help you transform your AI initiatives from ideas into actionable results.",
+    Content: "Implement MLOps in a 10-week process, ensuring efficient machine learning operations.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlopsimplementation?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "MLOps: 2-Week Assessment",
-    Content: "We understand the complexities of MLOps and the hurdles businesses encounter when operationalizing machine learning.",
+    Content: "Explore MLOps in a 2-week assessment, improving your machine learning operations for streamlined processes.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlops_2week_assessment?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Marketing Mix Optimization: 6-Week Proof of Concept",
-    Content: "Discover the impact our Marketing Mix Optimization: 6-Week Proof of Concept (PoC) can have on your business.",
+    Content: "Improve marketing strategies with a 6-week proof of concept, improving ROI and campaign effectiveness.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.marketingmixoptimizationpoc?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Media Analytics using Video Indexer: 8-Week Implementation",
-    Content: "Discover the impact our Marketing Mix Optimization: 6-Week Proof of Concept (PoC) can have on your business.",
+    Content: "Optimize media analytics with an 8-week implementation, harnessing insights from video content.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mediaanalyticsusingvideoindexer?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Machine Learning on Microsoft Azure: 1-Day Briefing",
-    Content: "Developing and deploying models in production can be challenging. By implementing machine learning, organizations can take informed decisions that will help them grow the business.",
+    Content: "Discover machine learning on Microsoft Azure in a comprehensive 1-day briefing, unlocking its potential for your business.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlworkshopbriefing?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Product Recommendations in Retail: 4-Week Implementation",
-    Content: "Retail industry being a highly competitive industry needs constant upgrades based on consumer demands. Preferences of customers are changing very frequently.",
+    Content: "Implement product recommendation solutions in retail in just 4 weeks, improving the customer shopping experience.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.productrecommendationsinretailindustry?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Product Recommendations in Retail: 1-Week Assessment",
-    Content: "We will assess your current Azure infrastructure and will provide suggestions on various machine learning tools like Azure Machine Learning, Azure Databricks, and Azure Cognitive Services.",
+    Content: "Explore product recommendations in retail with a 1-week assessment, driving sales and customer engagement.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.productrecommendationinretailassessment?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Data Science Toolkit: 1-Day Briefing",
-    Content: "After better understanding your requirements, we will create a Power BI report with a Direct Query model.",
+    Content: "Gain insights into the data science toolkit in a 1-day briefing, unlocking the power of data analytics.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.datasciencetoolkit?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Demand Forecasting: 5-Week Proof of Concept",
-    Content: "We will also discuss with you how Azure Analytics services and other tools can be utilized to preprocess and analyze the data.",
+    Content: "Improve your demand forecasting in a 5-week proof of concept, improving inventory management and customer satisfaction.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.demandforecastingpoc?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "Machine Learning Accelerator: 6-Week Implementation",
-    Content: "These accelerators can perform matrix operations and other common computations used in machine learning much more quickly than general-purpose CPUs.",
+    Content: "Accelerate your machine learning capabilities with a 6-week implementation, driving data-driven decision-making.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.machinelearningacceleratorimplementation?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "ML Forecasting for FMCG: 4-Week Proof of Concept",
-    Content: "To manufacture products based on consumer demands and other factors that are affecting the demand, businesses must be able to accurately forecast to stay ahead of the competition in this global marketplace.",
+    Content: "Transform FMCG forecasting with a 4-week proof of concept, using machine learning for more accurate predictions.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlforecastingforfmcgpoc?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "ML Forecasting for Retail: 4-Week Proof of Concept",
-    Content: "Imagine a world where you know precisely what products to stock, when to stock them, and how to optimize your inventory.",
+    Content: "Elevate retail forecasting with a 4-week proof of concept, harnessing machine learning for better insights.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlforecastingforretailpoc?search=Maq&page=1"
   },
   {
     category: "aiml",
     Heading: "ML Model Migration to Azure: 10-Week Implementation",
-    Content: "Migrating your ML models to Azure is the way to go but doing it seamlessly and ensuring they run efficiently is no easy task. Let us help you do it smoothly and successfully with ease.",
+    Content: "Migrate your ML models to Azure in a seamless 10-week process for improved scalability and accessibility.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlmodelmigrationtoazure?search=Maq&page=1"
   },
   {
     category: "aiml",
-    Heading: "SKU Optimization: 12-Week Proof of Concept - Microsoft Azure Marketplace",
-    Content: "Inventory management is the most critical factor in a business. It will help businesses in handling stocks based on consumer demands, product characteristics and production capacity.",
+    Heading: "SKU Optimization: 12-Week Proof of Concept",
+    Content: "Streamline your product SKU management in a 12-week proof of concept, improving efficiency and performance.",
     link: "link"
   },
-
-
   {
     category: "generativeai",
-    Heading: "Knowledge bot for finance: 6-Week Proof of concept - Microsoft Azure Marketplace",
-    Content: "Current knowledge management systems often lack user-friendly interfaces and struggle to provide personalized and contextualized information.",
+    Heading: "Knowledge bot for finance: 6-Week Proof of concept",
+    Content: "Explore how a knowledge bot for finance can improve your access to information in a 6-week proof of concept.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.knowledgebotforfinance-preview?tab=Overview&flightCodes=knowledgebotforfinance"
   },
   {
     category: "generativeai",
     Heading: "Automate KYC for customers: 6-Week Proof of Concept",
-    Content: "Are you struggling to streamline customer onboarding while ensuring compliance with regulatory requirements? Imagine a world where KYC becomes effortless, efficient, and fully automated.",
+    Content: "Streamline KYC processes with a 6-week proof of concept, ensuring compliance and efficiency.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.automatekycforcustomers-preview?tab=Overview&flightCodes=automatekycforcustomers"
   },
   {
     category: "generativeai",
     Heading: "Personalized Recommendation Engine for Finance: 6-Week PoC",
-    Content: "With EmbedFAST, you can unlock a suite of powerful features that elevate your workflow. Save time, effort, costs, and resources by using our ready-to-use API.",
+    Content: "Implement a personalized recommendation engine for finance in a 6-week proof of concept, driving better financial decisions.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.personalizedrecommendationfinance-preview?tab=Overview&flightCodes=0c58e4f9bc0f4aa7a94ca392f49fc5d9"
   },
   {
     category: "generativeai",
     Heading: "Conversational Bot: 6-Week Proof of Concept",
-    Content: "Welcome to our 6-week Proof of Concept (PoC) that leverages the power of Azure's advanced technology stack to transform your finance sector.",
+    Content: "Improve customer interactions with a 6-week conversational bot proof of concept, improving engagement.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.conversationalbotpoc-preview?tab=Overview&flightCodes=69393774de6946debfc30c9a41570260"
   },
   {
     category: "generativeai",
     Heading: "Support Response Automation: 6-Week Proof of Concept",
-    Content: "Make this a reality with our 6-week proof of concept (PoC) in Support Response Automation, powered by OpenAI.",
+    Content: "Streamline support responses with a 6-week proof of concept, improving customer service.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.supportresponseautomation-preview?tab=Overview&flightCodes=59eea1327df94a349426da31c8e59aaf"
   },
   {
     category: "generativeai",
     Heading: "Customer Sentiment Analysis: 6-Week Proof of Concept",
-    Content: "Our solution empowers businesses to understand and analyze customer feedback, enabling data-driven decision-making for enhanced customer satisfaction and improved brand reputation.",
+    Content: "Implement customer sentiment analysis in a 6-week proof of concept, improving customer understanding.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.customer_sentiment_analysis-preview?tab=Overview&flightCodes=bb6b9ae1502b4a10a3f76dd7e1e3e321"
   },
-
-
   {
     category: "microsoftfabric",
     Heading: "Microsoft Fabric: Accelerated 8-Week Pilot Implementation",
-    Content: "Microsoft Fabric and its all-in-one capabilities enter as a solution to this challenge. Introducing our 8-week pilot solution implementation with Microsoft Fabric program",
+    Content: "Accelerate your Microsoft Fabric implementation with an 8-week pilot, improving efficiency.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.microsoftfabricacceleratedpilot?search=Fabric&page=1"
   },
   {
     category: "microsoftfabric",
     Heading: "Microsoft Fabric: 4-Week Assessment",
-    Content: "Our 4-week consulting engagement is designed to evaluate the suitability of Microsoft Fabric for your organization's specific needs",
+    Content: "Explore the possibilities of Microsoft Fabric with a 4-week assessment, optimizing your business processes.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.fabricassesment?search=Fabric&page=1"
   },
-
 ];
 
 data.sort((a,b)=>{
