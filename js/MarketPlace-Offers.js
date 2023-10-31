@@ -25,7 +25,7 @@ const data = [
   },
   {
     category: "apps",
-    Heading: "Power BI LoadFAST",
+    Heading: "LoadFAST",
     Content: "LoadFAST provides an automated solution to capture, analyze, and optimize the page load time (PLT) of your reports.",
     link: "https://azuremarketplace.microsoft.com/en-us/marketplace/apps/maqsoftware.powerbiloadanalyzer?tab=Overview"
   },
