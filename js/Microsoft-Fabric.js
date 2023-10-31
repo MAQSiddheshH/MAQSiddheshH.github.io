@@ -259,7 +259,7 @@ function isValidEmail(email) {
 
 
 function isValidPhone(phone) {
-    var phonePattern = /^[0-9]{10}$/; //  10-digit phone number
+    var phonePattern = /^[0-9]/; //  10-digit phone number
     return phonePattern.test(phone);
 }
 
