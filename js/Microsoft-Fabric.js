@@ -302,6 +302,30 @@ function onKeyPressValidatePhone(){
     }
 }
 
+function onKeyPressValidateTextField(input_element){
+    let element = document.getElementById("Demo-popup-form-"+input_element)
+    if(element.value === 0){
+        element.classList.add("error-popup")
+    }else{
+        element.classList.remove("error-popup")
+    }
+
+    element = document.getElementById("get-in-touch-popup-form-"+input_element)
+    if(element.value === 0){
+        element.classList.add("error-popup")
+    }else{
+        element.classList.remove("error-popup")
+    }
+}
+
+function onChangeDropdown(){
+    let dropdown = document.getElementById("contactingForDropdown");
+    if(dropdown.value === ""){
+        dropdown.classList.add("error-popup");
+    }else{
+        dropdown.classList.remove("error-popup");
+    }
+}
 
 function clearErrorMessages() {
     console.log("here")
