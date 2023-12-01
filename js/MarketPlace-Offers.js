@@ -551,6 +551,7 @@ function populateGridCategory(category) {
       nestedDiv3.className = "MarketPlaceGridLearnMore";
       nestedDiv3.id = `div-${index}-3`;
       nestedDiv3.href = item.link; // Set the link dynamically from your data
+      nestedDiv3.target="_blank";
       nestedDiv3.textContent = "Learn more"; // Set link text
 
       // Append the nested divs to the main container div
@@ -598,6 +599,7 @@ function populateGridSubCategory(subCategory) {
       nestedDiv3.className = "MarketPlaceGridLearnMore";
       nestedDiv3.id = `div-${index}-3`;
       nestedDiv3.href = item.link; // Set the link dynamically from your data
+      nestedDiv3.target="_blank";
       nestedDiv3.textContent = "Learn more"; // Set link text
 
       // Append the nested divs to the main container div
