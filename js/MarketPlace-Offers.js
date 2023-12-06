@@ -345,15 +345,15 @@ const data = [
   {
       "category": "consulting",
       "subCategory": "aiml",
-      "Heading": "MLOps: 10-Week Implementation",
-      "Content": "Implement MLOps in a 10-week process, ensuring efficient machine learning operations.",
+      "Heading": "Machine Learning Operations: 10-Week Implementation",
+      "Content": "Implement Machine Learning Operations in a 10-week process, ensuring efficient machine learning operations.",
       "link": "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlopsimplementation?search=Maq&page=1"
   },
   {
       "category": "consulting",
       "subCategory": "aiml",
-      "Heading": "MLOps: 2-Week Assessment",
-      "Content": "Explore MLOps in a 2-week assessment, improving your machine learning operations for streamlined processes.",
+      "Heading": "Machine Learning Operations: 2-Week Assessment",
+      "Content": "Explore Machine Learning Operations in a 2-week assessment, improving your machine learning operations for streamlined processes.",
       "link": "https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services/maqsoftware.mlops_2week_assessment?search=Maq&page=1"
   },
   {
