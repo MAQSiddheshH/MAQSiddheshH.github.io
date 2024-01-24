@@ -8,7 +8,7 @@
 .card-category {
     height: max-content;
     width: 100%;
-    background-color: #4178d1;
+    background-color: #3276d2;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -40,8 +40,9 @@
     height: min-content;
     text-wrap: nowrap;
     font-size: xx-small;
-    color: #a67724;
-    background-color: #fcf4d0;
+    padding: 0px 4px;
+    color: #ba8b39;
+    background-color: #fdf4cf;
 }
 
 .card-title{
@@ -55,7 +56,7 @@
 
 .card-detail-text{
     font-size: x-small;
-    color: #6d6d6d;
+    color: black;
 }
 
 .card-learn-more{
