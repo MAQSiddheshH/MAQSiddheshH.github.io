@@ -1,3 +1,9 @@
+.title-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .card {
     height: 330px;
     width: 230px;
