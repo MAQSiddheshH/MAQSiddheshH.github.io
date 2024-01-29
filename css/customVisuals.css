@@ -8,8 +8,19 @@
 .card-category {
     height: max-content;
     width: 100%;
-    background-color: #3276d2;
     border-radius: 8px 8px 0px 0px;
+}
+
+.card-category-editorPick{
+    background-color: #3276d2;
+}
+
+.card-category-featured{
+    background-color: #247b1c;
+}
+
+.card-category-noCategory{
+    background-color: white;
 }
 
 .card-category>p {
@@ -21,7 +32,8 @@
     width: 100%;
     height: min-content;
     font-size: x-small;
-    color: white
+    color: white;
+    padding: 1%;
 }
 
 .card-media{
@@ -36,7 +48,7 @@
 }
 
 .card-certified{
-    width: min-content;
+    width: fit-content;
     height: min-content;
     text-wrap: nowrap;
     font-size: xx-small;
@@ -60,7 +72,7 @@
 }
 
 .card-learn-more{
-    font-size: small;
+    font-size: large;
     font-weight: bold;
     align-self: baseline;
     margin-inline: 10%;
