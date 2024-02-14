@@ -6,7 +6,9 @@ var pageSection,
   // viewAllVisualTemplate =
   //   '<div class="grid-item nf-item @category"><article class="post"><div style="height: 20em !important" class="post-content with-background"><div class="post-media"><div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9"><a class="overlay-link" target="_blank" href="@url"><img style="height:12em !important" src="@img" alt=""><span class="overlay-info"><span><span style="font-size:15px">@description</span></span></span></a></div></div><h2 class="title-xxssmall"  style="text-align:center"><a target="_blank" href="@url">@name</a><a href="@pbicertifiedurl" target="_blank"><img style="margin-bottom: 0.18em" class="certified" title ="@starimagetitle" src="@certifiedstarimage"></img></a> </h2><div style="text-align: center;height: 30px !important"> <a href="@linkToArticle"> <img src="@linkToBadge"> </a> </div></div></article></div>';
   viewAllVisualTemplate = 
-    '<div class="grid-item nf-item change @category"> <article class="card"> <div class="card-category card-category-@mentionStyle"> <p><img src="../img/Custom Visual Icons/@mentionStyle.png"><a style="color:white;" target="_blank" href="@linkToArticle">@mentionText</a></p> </div> <div class="card-media"><a class=""target="_blank" href="@url"><img style="height: 8em !important;"src="..@img" alt=""></a></div> <div class="card-content"> <div class="card-certified @isCertified"><a target="_blank" href="https://aka.ms/pbicertified"><img src="../img/Custom Visual Icons/certified.png">Power BI Certified</a></div> <h2 class="card-title"><a target="_blank"href="@url">@name</a></h2> <p class="card-detail-text">@description</p> </div> <a class="card-learn-more" target="_blank"href="@url">Learn More <img src="../img/Custom Visual Icons/rightIcon.png"></a> </article> </div>'
+    '<div class="grid-item nf-item change @category"> <article class="card"> <div class="card-media"><a class=""target="_blank" href="@url"><img style="height: 8em !important;"src="..@img" alt=""></a></div> <div class="card-content"> <h2 class="card-title"><a target="_blank"href="@url">@name <img src="../img/Custom Visual Icons/rightIcon.png"></a></h2> <p class="card-detail-text">@description</p> </div> <div class="category-container"> <div class="card-category card-category-@mentionStyle"> <p><img src="../img/Custom Visual Icons/@mentionStyle.png"><a style="color:@mentionColor;" target="_blank" href="@linkToArticle">@mentionText</a></p> </div> <div class="card-certified @isCertified"><a style="color:#a36710;" target="_blank" href="https://aka.ms/pbicertified"><img src="../img/Custom Visual Icons/certified.png">Power BI Certified</a></div> </div> </article> </div>'
+  mentionDiv = 
+    '<div class="card-category card-category-@mentionStyle"> <p><img src="../img/Custom Visual Icons/@mentionStyle.png"><a style="color:@mentionColor;" target="_blank" href="@linkToArticle">@mentionText</a></p> </div>';
 Date.prototype.format = function () {
   "use strict";
   var arrMonths = [
@@ -357,6 +359,7 @@ function RenderPowerBIVisuals(oVisualConfig) {
           oVisualConfig[index][this].pbicertifiedurl
         );
       viewAllContentHtml += viewAllVisualTemplate
+        .replace(mentionDiv,oVisualConfig[index][this].mentionStyle==="noCategory"?"":mentionDiv)
         .replace(/@name/g, oVisualConfig[index][this].name)
         .replace(/@img/g, oVisualConfig[index][this].img)
         .replace(/@id/g, oVisualConfig[index][this].id)
@@ -366,6 +369,7 @@ function RenderPowerBIVisuals(oVisualConfig) {
         .replace(/@category/g, oVisualConfig[index][this].category)
         .replace(/@isCertified/g, oVisualConfig[index][this].isCertified?"":"certified-hide")
         .replace(/@mentionStyle/g, oVisualConfig[index][this].mentionStyle)
+        .replace(/@mentionColor/g,oVisualConfig[index][this].mentionStyle==="editorsPick"?"#3276d2":"#247b1c")
         .replace(/@mentionText/g, oVisualConfig[index][this].mentionText)
         .replace(/@description/g, oVisualConfig[index][this].description)
         .replace(/@linkToArticle/g, oVisualConfig[index][this].linkToArticle)
