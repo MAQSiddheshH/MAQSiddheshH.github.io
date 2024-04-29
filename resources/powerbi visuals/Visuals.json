@@ -7,7 +7,7 @@
       "description": "Track progress visually with a detailed linear gauge for easy goal monitoring.",
       "url": "https://appsource.microsoft.com/en-us/product/power-bi-visuals/maqsoftware1587623472284.advancedlineargaugebymaqsoftware?tab=Overview",
       "contacturl": "https://maqsoftware.zendesk.com/hc/en-us/community/topics/13637535630100-Power-BI-Advanced-Linear-Gauge",
-      "img": "/images/powerbi/BowtieChart.jpg",
+      "img": "/images/powerbi/AdvancedLinear.png",
       "gif": "/images/powerbi/Bowtie_Chart.mp4",
       "content": "",
       "category": "flow certified",
@@ -31,7 +31,7 @@
       "keyFeatures": [],
       "whatsNew": [],
       "version": "",
-      "pbiReportURL": ""
+      "pbiReportURL": "https://app.powerbi.com/view?r=eyJrIjoiMTBlYmUzOTktMjlhMC00NDdhLWIxYzQtZmFkNzIzZGI3YTQ5IiwidCI6ImU0ZDk4ZGQyLTkxOTktNDJlNS1iYThiLWRhM2U3NjNlZGUyZSIsImMiOjZ9"
     }
   },
   {
@@ -669,7 +669,7 @@
       "description": "Visually depict the structure and relationships of authorities in an organization.",
       "url": "https://appsource.microsoft.com/en-us/product/power-bi-visuals/maqsoftware1587623472284.hierarchychartbymaqsoftware?tab=Overview",
       "contacturl": "https://maqsoftware.zendesk.com/hc/en-us/community/topics/12846049921044-Power-BI-Hierarchy-Chart",
-      "img": "/images/powerbi/HistogramwithPoints.jpg",
+      "img": "/images/powerbi/HierarchyChart.png",
       "gif": "/images/powerbi/Histogram_With_Points.mp4",
       "content": "",
       "category": "distribution certified",
@@ -698,7 +698,7 @@
         "Navigational freedom: Zoom and drag features allow for adaptable visualization positioning."
       ],
       "whatsNew": [],
-      "pbiReportURL": "https://app.powerbi.com/view?r=eyJrIjoiODBkNGM4ZjktYzkzMS00MmEzLTg3MWYtOTRmNGI0NDdmOWFlIiwidCI6ImU0ZDk4ZGQyLTkxOTktNDJlNS1iYThiLWRhM2U3NjNlZGUyZSIsImMiOjZ9"
+      "pbiReportURL": "https://app.powerbi.com/view?r=eyJrIjoiNTk4OWY4MmEtNjFmOC00MDc3LTgwMWMtY2IzMDA5NWFkNGVkIiwidCI6ImU0ZDk4ZGQyLTkxOTktNDJlNS1iYThiLWRhM2U3NjNlZGUyZSIsImMiOjZ9"
     }
   },
   {
