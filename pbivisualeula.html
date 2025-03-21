@@ -26,6 +26,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="css/core.min.css" />
     <link rel="stylesheet" href="css/skin.css" />
+    <link rel="stylesheet" href="css/styles.css"/>
 
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -38,6 +39,13 @@
         gtag('js', new Date());
         gtag('config', 'G-S0W302CGQG');
     </script>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ouperab56x");
+    </script>
 </head>
 <body class="shop">
 
@@ -48,7 +56,7 @@
     <div class="content clearfix"></div>
 
         <!-- Full Width Slider Section -->
-        <div class="pb-150 feature-1 overlap-bottom pt-150 bkg-white">
+        <!-- <div class="pb-150 feature-1 overlap-bottom pt-150 bkg-white">
             <div class="media-overlay background-cover">
                 <img data-src="/images/assets/Banner-Swoosh-2.png" data-retina src="/images/assets/Banner-Swoosh-2.png" alt="" />
             </div>
@@ -63,6 +71,16 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+        <div class="section-block-padding-sm hero-section centered-section news-section-margin">
+            <div class="flex-col-2">
+                <div class="hero-item-1">
+                    <h1 class="big">
+                        Power BI Visualization EULA
+                    </h1>
+                </div>
+            </div>
         </div>
         <!-- Full Width Slider Section -->
         <div class="clearfix"></div>
@@ -70,7 +88,7 @@
         <!-- Site Wraper -->
         <div class="wrapper">
             <!-- Sidebar Section -->
-            <section>
+            <section class="section-block-padding-support">
                 <div class="container">
                     <div class="row">
                         <div class="column width-12" id="PrivacyStatement">
@@ -78,9 +96,9 @@
                                 <section id="PageContainer">
                                     <div id="MainContent">
                                         <div class="left">
-                                            <div id="DataSection">
+                                            <div class="support-text" id="DataSection">
                                                 <p>Last Updated: April 04, 2020</p>
-                                                <h2>Power BI Custom Visuals – Standard Visualization License Terns  </h2>
+                                                <h2>Power BI Custom Visuals – Standard Visualization License Terms  </h2>
                                                 <p>These license terms are an agreement between you and MAQ, LLC DBA MAQ Software, the visualization developer (The Visualization Developer). Please read them. They apply to the visualization for Power BI you download from the Microsoft AppSource or GitHub.</p>
                                                 <p>BY DOWNLOADING OR USING THE VISUALIZATION, OR ATTEMPTING TO DO ANY OF THESE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, YOU HAVE NO RIGHT TO AND MUST NOT DOWNLOAD OR USE THE VISUALIZATION.</p>
                                                 <p>The Visualization developer means the entity licensing the Visualization to you, as identified in the Microsoft AppSource or GitHub.</p>
@@ -176,9 +194,12 @@
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3JCAhNj6tVAO_LSb8M-AzMlidiT-RPAs"></script>
         <script src="js/timber.master.min.js"></script>
+        <script src="js/sidenav.js"></script>
         <script>
-            $("#header").load("/header");
-            $("#footer").load("/footer");
+            // $("#header").load("/header");
+            // $("#footer").load("/footer");
+            // $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
         </script>
         <script src="/js/common.js"></script>
 </body>

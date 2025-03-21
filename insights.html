@@ -16,7 +16,7 @@
     <meta name="twitter:widgets:theme" content="light">
 
     <!-- Title &amp; Favicon -->
-    <title>Tech Insights | MAQ Software</title>
+    <title>Insights | MAQ Software</title>
     <link rel="shortcut icon" type="image/x-icon" href="/images/logos/MAQ-Software-URL.png">
 
     <!-- Font -->
@@ -25,9 +25,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
     <!-- Css -->
-    <link rel="stylesheet" href="css/core.min.css" />
-    <link rel="stylesheet" href="css/skin.css" />
-    <link rel="stylesheet" href="css/commonstyle.css" />
+    <link rel="stylesheet" href="../css/core.min.css" />
+    <link rel="stylesheet" href="../css/skin.css" />
+    <link rel="stylesheet" href="../css/commonstyle.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
 
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -39,6 +40,13 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-S0W302CGQG');
+    </script>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ouperab56x");
     </script>
 </head>
 
@@ -55,37 +63,15 @@
     <!-- Content -->
     <div class="content clearfix">
 
-        <div class="wrapper reveal-side-navigation">
-            <div class="wrapper-inner">
-                <!-- Intro Title Section 2 -->
-                <div class="pt-60">
-                    <div class="section-block intro-title-1 small bkg-white">
-                        <div class="row">
-                            <div class="column width-12">
-                                <div class="title-container">
-                                    <div class="title-container-inner">
-                                        <div class="row flex">
-                                            <div class="column width-6 v-align-middle">
-                                                <div>
-                                                    <h1 class="mb-0">Insights</h1>
-                                                    <!-- <p class="lead mb-0 mb-mobile-20">
-                                                        Stay in the loop with the latest
-                                                        tech knowledge from our expert team of engineers.
-                                                    </p> -->
-                                                </div>
-                                            </div>
-                                            <div class="column width-6 v-align-middle">
-                                                <div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="section-block-padding-sm hero-section centered-section news-section-margin lg-section-block-padding-hero">
+            <div class="flex-col-2">
+                <div class="hero-item-1">
+                    <h1 class="big">
+                        Insights
+                    </h1>
                 </div>
+            </div>
+        </div>
                 <!-- Intro Title Section 2 End -->
                 <!--<div class="section-block pt-0 grid-filter-menu center" data-target-grid="#portfolio-grid">
                     <div class="freeze pt-10 pb-10 bkg-white" data-extra-space-top="80" data-extra-space-bottom="0">
@@ -136,6 +122,15 @@
                             <p class="pull-left" id="2" data-clicked="1">
                                 <a id="a2" class="number-button"><span id="spanElement2">2</span></a>
                             </p>
+                            <!-- <p class="pull-left" id="3" data-clicked="2">
+                                <a id="a3" class="number-button"><span id="spanElement3">3</span></a>
+                            </p>
+                            <p class="pull-left" id="4" data-clicked="3">
+                                <a id="a4" class="number-button"><span id="spanElement3">4</span></a>
+                            </p>
+                            <p class="pull-left" id="5" data-clicked="4">
+                                <a id="a5" class="number-button"><span id="spanElement5">5</span></a>
+                            </p> -->
                             <!-- <p class="pull-left" id="3" data-clicked="2">
                                 <a class="number-button"><span>3</span></a>
                             </p>
@@ -190,12 +185,15 @@
     <script src="js/timber.master.min.js"></script>
     <script src="/js/common.js?v=20170828.2" type="text/javascript"></script>
     <script src="js/common.js"></script>
+    <script src="js/sidenav.js"></script>
     <script>
         $(document).ready(function () {
             // loadBlogGrid();
             newsConstructor(); 
-            $("#header").load("/header");
-            $("#footer").load("/footer");
+            // $("#header").load("/header");
+            // $("#footer").load("/footer");
+            // $("#header").load("/header.html");
+            $("#footer").load("/footer.html");
         });
     </script>
 </body>

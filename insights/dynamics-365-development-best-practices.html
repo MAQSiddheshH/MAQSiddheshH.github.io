@@ -25,6 +25,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="/css/core.min.css" />
     <link rel="stylesheet" href="/css/skin.css" />
+    <link rel="stylesheet" href="/css/styles.css"/>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -36,6 +37,13 @@
         gtag('js', new Date());
         gtag('config', 'G-S0W302CGQG');
     </script>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ouperab56x");
+    </script>
 </head>
 
 <body class="shop blog">
@@ -46,7 +54,7 @@
     <!-- Header End -->
     <div class="section-block bkg-grey-ultralight"></div>
     <!-- Content -->
-    <div class="content clearfix">
+    <div class="content clearfix best-practices-text">
         <div class="section-block clearfix pt-0 pb-0 bkg-grey-ultralight">
             <div class="row">
                 <!-- Content Inner -->
@@ -192,8 +200,7 @@
                                     <br>
                                     <p class="text-large">Adding icons for status, gender, rank, profit, loss, etc.
                                         enables users to quickly identify fields.</p>
-                                    <li class="text-xlarge"><strong>Ensure columns and relative orders are the same in
-                                            active and inactive views</strong></li>
+                                    <li class="text-xlarge"><strong>Ensure columns and relative orders are consistent across both active and inactive views</strong></li>
                                     <br>
                                     <p class="text-large">This ensures consistency in information available for records
                                         across both states.</p>
@@ -217,22 +224,21 @@
                                     <li class="text-xlarge"><strong>Update the stage of Business Process Flow (BPF) with
                                             custom fields</strong></li>
                                     <br>
-                                    <p class="text-large">Instead of performing moveNext() and movePrevious() operations
-                                        from scripts, update custom fields (e.g. status, gender) from scripts. This
-                                        triggers the out-of-the-box (OOB) background workflow (registered on BPF Entity)
-                                        to update the active stage in BPF.</p>
+                                    <p class="text-large">
+                                        Instead of executing moveNext() and movePrevious() operations from scripts, consider updating custom fields (such as status or gender) directly from scripts. 
+                                        This action activates predefined background workflows, plug-ins, and Power Automate flows linked to the Business Process Flow (BPF) entity, updating the active BPF stage.</p>
 
                                 </ol>
                             </div>
                             <div id="web-resources">
                                 <h2>Web Resources</h2>
                                 <ol>
-                                    <li class="text-xlarge"><strong>Use Namespace for JavaScript web resources</strong>
+                                    <li class="text-xlarge"><strong>Use namespace for JavaScript web resources</strong>
                                     </li>
                                     <br>
                                     <p class="text-large">This ensures JavaScript methods are unique and prevents
                                         collisions between identifiers.</p>
-                                    <li class="text-xlarge"><strong>Use RELATIVE paths to reference web
+                                    <li class="text-xlarge"><strong>Use relative paths to reference web
                                             resources</strong></li>
                                     <br>
                                     <p class="text-large">This ensures the web resource references are environment
@@ -244,8 +250,7 @@
                                     <br>
                                     <p class="text-large">This saves time by enabling developers to quickly reference
                                         and reuse common code.</p>
-                                    <li class="text-xlarge"><strong>Pass ExecutionContext instead of FormContext as a
-                                            parameter in JavaScript methods wherever possible</strong></li>
+                                    <li class="text-xlarge"><strong>Pass ExecutionContext only when it's necessary; otherwise, use FormContext</strong></li>
                                     <br>
                                     <p class="text-large">ExecutionContext is a parent object of FormContext, which
                                         enables not only form event handlers, but grid event handlers also using
@@ -324,7 +329,7 @@
                                 <li class="text-large"><a
                                         href="https://docs.microsoft.com/en-us/powerapps/developer/data-platform/tutorial-write-plug-in"
                                         target="blank">Write and register a plug-in (Microsoft Dataverse) - Power
-                                        Apps</a> – Microsoft Docs, last updated February 21, 2023</li>
+                                        Apps</a> – Microsoft Docs, last updated September 8, 2023</li>
                                 <li class="text-large"><a
                                         href="https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/clientapi/reference/xrm-navigation/navigateto"
                                         target="blank">navigateTo (Client API reference) in model-driven apps - Power
@@ -361,13 +366,13 @@
                                 <div class="column width-5 offset-1">
                                     <p class="title-medium">Up Next</p><br>
                                     <p class="title-small">Dynamics 365 Deployment Best Practices</p><br><a
-                                        href="/insights/dynamics-365-deployment-best-practices">Learn More
+                                        href="/insights/dynamics-365-deployment-best-practices.html">Learn More
                                         &rarr;</a><br>
                                 </div>
                             </div>
                             <div class="section-block pt-10 pb-10 bkg-white"></div>
                             <div class="post-info center">
-                                <span class="post-date">Last updated: August 2, 2023</span>
+                                <span class="post-date">Last updated: March 27, 2024</span>
                             </div>
                         </div>
                     </article>
@@ -383,8 +388,9 @@
     <!-- Js -->
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/timber.master.min.js"></script>
+    <script src="../js/sidenav.js"></script>
     <script>
-        $("#header").load("/header.html");
+        // $("#header").load("/header.html");
         $("#footer").load("/footer.html");
     </script>
 </body>

@@ -21,6 +21,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="/css/core.min.css" />
     <link rel="stylesheet" href="/css/skin.css" />
+    <link rel="stylesheet" href="/css/styles.css"/>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -32,6 +33,13 @@
         gtag('js', new Date());
         gtag('config', 'G-S0W302CGQG');
     </script>
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ouperab56x");
+    </script>
 </head>
 <body class="shop blog">
 
@@ -40,7 +48,7 @@
     <!-- Header End -->
     <div class="section-block bkg-grey-ultralight"></div>
     <!-- Content -->
-    <div class="content clearfix">
+    <div class="content clearfix best-practices-text">
         <div class="section-block clearfix pt-0 pb-0 bkg-grey-ultralight">
             <div class="row">
                 <!-- Content Inner -->
@@ -69,7 +77,7 @@
                                     <p class="text-large">To update data as part of data migration activities without triggering business logic, deactivate plugins/workflows registered on the entities present in import file. This reduces import time.</p>
                                     <li class="text-xlarge"><strong>Enable admin mode on your target environment during deployment</strong></li>
                                     <br>
-                                    <p class="text-large">Admin mode locks the environment for all users, meaning only system administrators can access the environment. Enabling admin mode during deployment ensures that data is not compromised by unplanned changes. If an error occurs, data can be restored to previous versions. Note: Admin mode cannot be enabled in the production environment. If you are not permitted to convert the environment to a sandbox, use the global notification method to add a form.</p>
+                                    <p class="text-large">Admin mode locks the environment for all users, meaning only system administrators can access the environment. Enabling admin mode during deployment ensures that data is not compromised by unplanned changes. If an error occurs, data can be restored to previous versions.</p>
                                     <li class="text-xlarge"><strong>Include a user-friendly message while in admin-mode</strong></li>
                                     <br>
                                     <p class="text-large">During deployment, the system may be slow. This is why we recommended locking the system for end users. Messages inform end users that the environment is down due to planned activities and will return after the indicated duration. Clear messages avoid support tickets from confused end users. </p>
@@ -77,7 +85,7 @@
                                     <div class="center text-medium">Figure 3: Enabling Admin mode from Power Platform admin center</div><br><br>
                                     <li class="text-xlarge"><strong>Back up the environment before deployment</strong></li>
                                     <br>
-                                    <p class="text-large">Backups ensure that the system can be restored to its pre-deployment state in case a deployment failure occurs. Backups are faster than creating a copy of the environment. Note: When an environment is restored to an earlier state, the Data Export Service profile needs to be re-established to synchronize the Dynamics 365 data to Azure SQL. </p>
+                                    <p class="text-large">Backups ensure that the system can be restored to its pre-deployment state in case a deployment failure occurs. Backups are faster than creating a copy of the environment.</p>
                                     <img src="/images/best-practices/D365-deployment-4.png" alt="">
                                     <div class="center text-medium">Figure 4: Creating a backup from Power Platform admin center</div><br><br>
                                     <li class="text-xlarge"><strong>Run a test in a cloned production environment prior to production deployment </strong></li>
@@ -99,7 +107,7 @@
                             </div>
                             <div class="section-block pt-10 pb-10 bkg-white"></div>
                             <div class="post-info center">
-                                <span class="post-date">Last updated: August 2, 2023</span>
+                                <span class="post-date">Last updated: March 25, 2024</span>
                             </div>
                         </div>
                     </article>
@@ -115,8 +123,9 @@
     <!-- Js -->
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/timber.master.min.js"></script>
+    <script src="../js/sidenav.js"></script>
     <script>
-$("#header").load("/header.html");
+// $("#header").load("/header.html");
 $("#footer").load("/footer.html");
     </script>
 </body>
