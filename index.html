@@ -42,6 +42,7 @@
 
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 
   <!--[if lt IE 9]>
@@ -84,7 +85,9 @@
 </head>
 
 <body>
-  
+    <button id="scrollToTopBtn" class="scroll-to-top" title="Scroll to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
   <!-- Header -->
   <header id="header" class="header header-absolute header-fixed-on-mobile header-transparent" data-bkg-threshold="100"
     data-sticky-threshold="0"></header>
@@ -98,7 +101,7 @@
 
       <div class="notification-banner centered-section">
         <div class="section-heading-container max-section-size" style="margin-top: 20px;">
-          <h1 class="display-medium" style="margin-bottom: 0px;">We are attending Fabcon Vegas 2025. For more information, visit our <a href="https://maqsoftware.com/fabcon2025-vegas">Fabcon Website</a>.</h1>
+          <h1 class="banner-text" style="margin-bottom: 0px;">Meet MAQ Software at the Microsoft Fabric Community Conference (Las Vegas, Mar 31–Apr 2) to explore strategies for successful Microsoft Fabric migration. <a href="https://maqsoftware.com/fabcon2025-vegas">Learn more</a>.</h1>
         </div>
       </div>
 
@@ -163,7 +166,7 @@
           <h1 class="display-medium">Services we provide</h1>
         </div>
         <div class="services-flex-grid max-section-size mb-grid-service">
-          <a class="card-link" href="/services/artificial-intelligence-and-machine-learning.html">
+          <a class="card-link" href="/services/artificial-intelligence-and-machine-learning.html" aria-label="Go to Gen AI & machine learning service page">
             <div class="card-item mb-service-card">
               <div class="icon-container-card">
                 <span class="fluent--brain-circuit-24-regular service-icon-size"></span>
@@ -172,12 +175,12 @@
               <p class="card-title">Gen AI & machine learning</p>
               <p class="body-text">Harness the power of artificial intelligence and machine learning to automate processes
                 and uncover hidden patterns.</p>
-              <a href="/services/artificial-intelligence-and-machine-learning.html"
+              <a href="/services/artificial-intelligence-and-machine-learning.html" aria-label="Go to Gen AI & machine learning service page"
                 class="learn-more-link body-bold">Learn more <span class="chevron">&gt;</span></a>
             </div>
           </a>
 
-          <a class="card-link" href="/services/data-and-analytics.html">
+          <a class="card-link" href="/services/data-and-analytics.html" aria-label="Go to Data & analytics service page">
             <div class="card-item mb-service-card">
               <div class="icon-container-card">
                 <span class="fluent--data-histogram-24-regular service-icon-size"></span>
@@ -186,12 +189,12 @@
               <!-- <img src="images-new/Icons/services-icon-1.png" alt="Logo" class="icon-container-card"> -->
               <p class="card-title">Data & analytics</p>
               <p class="body-text">Drive growth through data-driven insights and powerful analytics.</p>
-              <a href="/services/data-and-analytics.html" class="learn-more-link body-bold">Learn more <span
+              <a href="/services/data-and-analytics.html" aria-label="Go to Data & analytics service page" class="learn-more-link body-bold" >Learn more <span
                   class="chevron">&gt;</span></a>
             </div>
           </a>
 
-          <a class="card-link" href="/services/reporting-and-visualization.html">
+          <a class="card-link" href="/services/reporting-and-visualization.html" aria-label="Go to Reporting & visualization service page">
             <div class="card-item mb-service-card">
               <div class="icon-container-card">
                 <span class="fluent--data-usage-edit-24-regular service-icon-size"></span>
@@ -201,12 +204,12 @@
               <p class="card-title">Reporting & visualization</p>
               <p class="body-text">Visualize your data with intuitive reports and dashboards that provide clarity and
                 insight at a glance.</p>
-              <a href="/services/reporting-and-visualization.html" class="learn-more-link body-bold">Learn more <span
+              <a href="/services/reporting-and-visualization.html" aria-label="Go to Reporting & visualization service page" class="learn-more-link body-bold">Learn more <span
                   class="chevron">&gt;</span></a>
             </div>
           </a>
 
-          <a class="card-link" href="/services/application-modernization.html">
+          <a class="card-link" href="/services/application-modernization.html" aria-label="Go to Application modernization service page">
             <div class="card-item mb-service-card">
               <div class="icon-container-card">
                 <span class="fluent--window-arrow-up-24-regular service-icon-size"></span>
@@ -216,12 +219,12 @@
               <p class="card-title">Application modernization</p>
               <p class="body-text">Update legacy systems with modern, scalable applications that enhance performance and
                 user experience.</p>
-              <a href="/services/application-modernization.html" class="learn-more-link body-bold">Learn more <span
+              <a href="/services/application-modernization.html" aria-label="Go to Application modernization service page" class="learn-more-link body-bold">Learn more <span
                   class="chevron">&gt;</span></a>
             </div>
           </a>
 
-          <a class="card-link" href="/services/cloud.html">
+          <a class="card-link" href="/services/cloud.html" aria-label="Go to Cloud service page">
             <div class="card-item mb-service-card">
               <div class="icon-container-card">
                 <span class="fluent--cloud-database-20-regular service-icon-size"></span>
@@ -231,12 +234,12 @@
               <p class="card-title">Cloud optimization</p>
               <p class="body-text">Adopt technologies for flexible, scalable, and cost-effective IT solutions that grow
                 with your business.</p>
-              <a href="/services/cloud.html" class="learn-more-link body-bold">Learn more <span
+              <a href="/services/cloud.html" aria-label="Go to Cloud service page" class="learn-more-link body-bold">Learn more <span
                   class="chevron">&gt;</span></a>
             </div>
           </a>
 
-          <a class="card-link" href="services/security.html">
+          <a class="card-link" href="https://maqsoftware.com/services/security" aria-label="Go to Security service page">
             <div class="card-item mb-service-card">
               <div class="icon-container-card">
                 <span class="fluent--lock-shield-24-regular service-icon-size"></span>
@@ -246,7 +249,7 @@
               <p class="card-title">Security</p>
               <p class="body-text">Fortify your business with advanced security solutions that protect data, systems, and
                 users from evolving threats.</p>
-              <a href="services/security.html" class="learn-more-link body-bold">Learn more <span
+              <a href="https://maqsoftware.com/services/security" aria-label="Go to Security service page" class="learn-more-link body-bold">Learn more <span
                   class="chevron">&gt;</span></a>
             </div>
           </a>
@@ -336,8 +339,8 @@
           <a class="card-link" href="https://blog.maqsoftware.com/2024/05/enabling-real-time-visibility-how.html">
             <div class="card-item mb-case-study-card">
               <div class="img-container">
-                <img src="../images-new/case-studies/application-modernization/CS076-banner.jpg"
-                  alt="Image of a computer and a coffee mug" class="services-case-study-img">
+                <img src="../images-new/MAQ-homepage-images-mobile-webp/enabling-real-time-visibility-how-a-retail-leader-transformed-direct-store.webp"
+                  alt="Image of a computer and a coffee mug" class="services-case-study-img" loading="lazy">
               </div>
               <p class="card-title-small">Enabling real-time visibility: How a retail leader transformed Direct Store
                 Delivery with Microsoft Fabric</p>
@@ -349,8 +352,8 @@
           <a class="card-link" href="https://blog.maqsoftware.com/2024/03/maximizing-power-of-dynamics-365-user.html">
             <div class="card-item mb-case-study-card">
               <div class="img-container">
-                <img src="../images-new/case-studies/application-modernization/CS075-banner.jpg"
-                  alt="Image of a closeup of a woman shopping for groceries" class="services-case-study-img">
+                <img src="../images-new/MAQ-homepage-images-mobile-webp/maximizing-the-power-of-Dynamics-365-user-interface-&-user-experience.webp"
+                  alt="Image of a closeup of a woman shopping for groceries" class="services-case-study-img" loading="lazy">
               </div>
               <p class="card-title-small">Maximizing the power of Dynamics 365: User interface & user experience
                 redesigned</p>
@@ -362,8 +365,8 @@
           <a class="card-link" href="https://blog.maqsoftware.com/2020/10/dynamic-checklist-dynamics-365.html">
             <div class="card-item mb-case-study-card">
               <div class="img-container">
-                <img src="../images-new/case-studies/application-modernization/CS034-MainRev2.jpg"
-                  alt="Image of a man pointing to a laptop screen depicting a chart" class="services-case-study-img">
+                <img src="../images-new/MAQ-homepage-images-mobile-webp/complete-tasks-faster-with-a-custom-dynamic-checklist-in-Dynamics-365.webp"
+                  alt="Image of a man pointing to a laptop screen depicting a chart" class="services-case-study-img" loading="lazy">
               </div>
               <p class="card-title-small">Complete Tasks Faster with a Custom Dynamic Checklist in Dynamics 365</p>
               <a href="https://blog.maqsoftware.com/2020/10/dynamic-checklist-dynamics-365.html"
@@ -374,8 +377,8 @@
           <a class="card-link" href="https://blog.maqsoftware.com/2019/06/case-study-data-validation-framework.html">
             <div class="card-item mb-case-study-card">
               <div class="img-container">
-                <img src="../images-new/case-studies/application-modernization/Data Validation Framework main.jpg"
-                  alt="Image of a person pointing to a tablet screen showing a chart" class="services-case-study-img">
+                <img src="../images-new/MAQ-homepage-images-mobile-webp/data-validation-framework-reduces-support-tickets.webp"
+                  alt="Image of a person pointing to a tablet screen showing a chart" class="services-case-study-img" loading="lazy">
               </div>
               <p class="card-title-small">Data Validation Framework Reduces Support Tickets</p>
               <a href="https://blog.maqsoftware.com/2019/06/case-study-data-validation-framework.html"
@@ -404,8 +407,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card1" onmouseover="showText('text1')" onmouseout="hideText('text1')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\MAQ_homepage_images_webp\customer-stories-1.webp" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/improving-lead-management-and-campaign-optimization-with-Microsoft-technologies.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Improving lead management and campaign optimization with Microsoft
                       technologies</p>
@@ -428,8 +431,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card2" onmouseover="showText('text2')" onmouseout="hideText('text2')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\MAQ_homepage_images_webp\customer-stories-2.webp" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/real-time-reporting-for-an-organic-supermarket-chain.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Real-time reporting for an organic supermarket chain</p>
                     <a href="https://blog.maqsoftware.com/2022/06/real-time-reporting-for-organic.html"
@@ -451,8 +454,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card3" onmouseover="showText('text3')" onmouseout="hideText('text3')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\MAQ_homepage_images_webp\customer-stories-3.webp" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/improving-insights-and-reducing-costs-through-unified-reporting.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Improving insights and reducing costs through unified reporting</p>
                     <a href="https://blog.maqsoftware.com/2022/07/improving-insights-and-reducing-costs.html"
@@ -474,8 +477,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card4" onmouseover="showText('text4')" onmouseout="hideText('text4')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\customer-stories-4.png" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/enhancing-fintech-analytics-to-provide-millions-of-borrowers-with-better-loan-options.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Enhancing fintech analytics to provide millions of borrowers with better
                       loan options</p>
@@ -498,8 +501,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card5" onmouseover="showText('text5')" onmouseout="hideText('text5')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS083-banner.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/modernizing-reporting-platforms-through-ai-driven-sql-migration.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Modernizing reporting platforms through AI-driven SQL Migration</p>
                     <a href="https://blog.maqsoftware.com/2024/08/modernizing-reporting-platforms-through.html"
@@ -521,8 +524,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card6" onmouseover="showText('text6')" onmouseout="hideText('text6')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS082-banner.png" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/unifying-data-management-with-a-centralized-framework.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Unifying data management with a centralized framework</p>
                     <a href="https://blog.maqsoftware.com/2024/08/unifying-data-management-with.html"
@@ -544,8 +547,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card7" onmouseover="showText('text7')" onmouseout="hideText('text7')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS081-banner.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/improving-event-experience-for-thousands-using-ai-agents.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Improving event experience for thousands using AI Agents</p>
                     <a href="https://blog.maqsoftware.com/2024/08/streamlining-event-information-access.html"
@@ -567,8 +570,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card8" onmouseover="showText('text8')" onmouseout="hideText('text8')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS080-banner.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/streamlining-information-retrieval-with-ai-copilots.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Streamlining information retrieval with AI copilots</p>
                     <a href="https://blog.maqsoftware.com/2024/07/streamlining-information-retrieval-with.html"
@@ -590,8 +593,8 @@
                 <div class="customer-stories-card">
                   <div class="card-item-front" id="card9" onmouseover="showText('text9')" onmouseout="hideText('text9')">
                     <div class="img-container">
-                      <img src="images-new/case-studies/CS079-banner.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/increasing-efficiency-by-switching-from-batch-processing-to-real-time-streaming.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Increasing efficiency by switching from batch processing to real-time
                       streaming</p>
@@ -615,8 +618,8 @@
                   <div class="card-item-front" id="card10" onmouseover="showText('text10')"
                     onmouseout="hideText('text10')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS078-banner-V2.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/harnessing-generative-AI-for-tailored-marketing-personalized-content-clusters-for-every-account.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Harnessing generative AI for tailored marketing: Personalized content
                       clusters for every account</p>
@@ -640,8 +643,8 @@
                   <div class="card-item-front" id="card11" onmouseover="showText('text11')"
                     onmouseout="hideText('text11')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS077-banner.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/optimizing-task-management-with-smart-recommendations.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Optimizing task management with smart recommendations</p>
                     <a href="https://blog.maqsoftware.com/2024/06/optimizing-task-management-with-smart.html"
@@ -664,8 +667,8 @@
                   <div class="card-item-front" id="card12" onmouseover="showText('text12')"
                     onmouseout="hideText('text12')">
                     <div class="img-container">
-                      <img src="images-new\case-studies\CS070-banner.jpg" alt="Image of a computer and a coffee mug"
-                        class="services-case-study-img">
+                      <img src="../images-new/MAQ-homepage-images-webp/transforming-customer-support-with-AIOps-driven-Power-BI-Embedding.webp" alt="Image of a computer and a coffee mug"
+                        class="services-case-study-img" loading="lazy">
                     </div>
                     <p class="card-title-small">Transforming customer support with AIOps-driven Power BI Embedding</p>
                     <a href="https://blog.maqsoftware.com/2023/02/transforming-customer-support-with.html"
@@ -829,8 +832,8 @@
           <a class="card-link" href="Marketplace-Offers\Power-BI-custom-visuals.html">
             <div class="community-card">
               <div class="img-container-insights">
-                <img src="images-new\isv\PBI-Custom-Visuals.png" alt="Image of a computer and a coffee mug"
-                  class="customer-stories-img">
+                <img src="../images-new/MAQ-homepage-images-webp/PBI-Custom-Visuals.webp" alt="Image of a computer and a coffee mug"
+                  class="customer-stories-img" loading="lazy">
               </div>
               <p class="card-title-small">Power BI visual guides</p>
               <p class="body-text">Explore our Power BI custom visuals, designed to elevate your data storytelling and
@@ -844,8 +847,8 @@
           <a class="card-link" href="https://events.microsoft.com/en-us/allevents/?view=list&search=MAQ%20Software&clientTimeZone=1&format=Digital">
             <div class="community-card">
               <div class="img-container-insights">
-                <img src="images-new\case-studies\community-image-2.png" alt="Image of a computer and a coffee mug"
-                  class="customer-stories-img">
+                <img src="../images-new/MAQ-homepage-images-webp/community-image-2.webp" alt="Image of a computer and a coffee mug"
+                  class="customer-stories-img" loading="lazy">
               </div>
               <p class="card-title-small">Webinars</p>
               <p class="body-text">Join our experts for in-depth sessions on the latest innovations in data and analytics.
@@ -860,7 +863,7 @@
           <a class="card-link" href="/community/best-practices.html">
             <div class="community-card">
                 <div class="img-container-insights">
-                  <img src="images-new\case-studies\power-bi-performance-and-security.jpg" alt="Image of a computer and a coffee mug" class="customer-stories-img">
+                  <img src="../images-new/MAQ-homepage-images-webp/power-bi-performance-and-security.webp" alt="Image of a computer and a coffee mug" class="customer-stories-img" loading="lazy">
                 </div>
                 <p class="card-title-small">Best practice guides</p>
                 <p class="body-text">Learn about the latest in the industry with our best practice guide blogs.</p>
@@ -947,7 +950,23 @@
         $("#footer").load("/footer.html");
       </script>
       <script src="js/common.js"></script>
-      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">
+         document.addEventListener("DOMContentLoaded", function () {
+    let scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 200) {
+            scrollToTopBtn.style.display = "flex";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    });
+
+    scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+});
+      </script>
 
 
 
