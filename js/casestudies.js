@@ -8,6 +8,10 @@ var oBlogContainer,
   caseStudyImageSource,
   iIterator = 0;
 
+// List of filters/filter IDs from case-studies.html
+// Used to check if filter value exists, error catching for getBlogOnComplete()
+const filterList = ["gen-ai-and-machine-learning", "data-and-analytics", "reporting-and-visualization", "application-modernization", "cloud-optimization", "security"]
+
 function renderCaseStudy() {
   var entry1,
     aCategoryFilters,
@@ -18,7 +22,7 @@ function renderCaseStudy() {
     sCaseStudyTitle,
     oimgSource;
   var parser = new DOMParser();
-  oCaseStudyContainer.removeClass(sLoadingClass);
+  // oCaseStudyContainer.removeClass(sLoadingClass);
   if (iTotalCaseStudy) {
     for (iIterator = 0; iIterator < iTotalCaseStudy; iIterator++) {
       entry1 = oCaseStudyData.getElementsByTagName("entry").item(iIterator);
@@ -64,6 +68,7 @@ function renderCaseStudy() {
       sImageLink = imgSource.getElementsByTagName("img")[0].getAttribute("src");
       sCaseStudyTitle =
         entry1.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        // console.log("entry 1: " + entry1);
       if (entry1) {
         var oCaseStudyEntry =
           "<div class='grid-item nf-item "+ aCategoryFilters.join(' ') +"'>" +
@@ -151,7 +156,22 @@ function getBlogSuccess(sResponse) {
   loadCaseStudy(sResponse);
 }
 
+function getQueryParam(param) {
+  const urlParams = new URLSearchParams(window.location.search);
+  // console.log(urlParams.get(param));
+  return urlParams.get(param);
+}
+
 function getBlogOnComplete() {
+  const filterValue = getQueryParam("filter");
+  // console.log(filterValue)
+  if(filterValue != null && filterList.includes(filterValue)){
+    let element = document.querySelector("#" + filterValue);
+    element.click();
+  }
+
+  let filterPanel = document.querySelector(".grid-filter-menu");
+  filterPanel.classList.remove("hide");
   oCaseStudyContainer.removeClass(sLoadingClass);
   $("#loadingicon").hide();
 

@@ -132,26 +132,22 @@
 
 							<div class="section-heading-container max-section-size">
 								<h1 class="display-medium">Offered a position at our company?</h1>
-								<p class="section-subheading">Many successful candidates found these two books useful in understanding our work and our point of view.</p>
+								<p class="section-subheading">If you are offered a position with our company, we
+									will provide you copies of <a href="http://www.iitbook.com/" target="_blank"><i>What I
+											Did Not Learn at IIT</i></a> and <a href="https://www.mbabook.in/"
+										target="_blank"><i>What I Did Not Learn in B-School</i></a>.
+									Many successful candidates found these two books useful in understanding our customers’
+									expectations,
+									our work, and our point of view. We advise you to not accept our position unless you
+									have reviewed the books.</p>
 							</div>
-
-							<!-- <p class="display-regular">
-								If you are offered a position with our company, we
-								will provide you copies of <a href="http://www.iitbook.in/" target="_blank"><i>What I
-										Did Not Learn at IIT</i></a> and <a href="https://www.mbabook.in/"
-									target="_blank"><i>What I Did Not Learn in B-School</i></a>.
-								Many successful candidates found these two books useful in understanding our customers’
-								expectations,our work, and our point of view. 
-							</p>
-							<p class="body-text">(We advise you to not accept our position unless you
-								have reviewed the books.)</p> -->
 
 						</div>
 
 						<div class="column width-6">
 							<div class="row">
 								<div class="column width-6 center">
-									<a href="http://www.iitbook.in/" target="_blank"><img
+									<a href="http://www.iitbook.com/" target="_blank"><img
 											src="/img/Careers/iitbook-careers.png" width="200"
 											title="What I Did Not Learn at IIT"
 											alt="What I Did Not Learn at IIT" /></br>IITbook.in</a>
@@ -178,12 +174,12 @@
                         <h1 class="contact-us-section-heading margin-sm">
                             Want to join the MAQ Software team?
                         </h1>
-						<p class="section-subheading margin-sm"> Apply to open positions on Jobscore</p>
+						<p class="section-subheading margin-sm"> Apply to open positions on JobScore</p>
 						<div class="one-rem-div"></div>  
 						<div>
 							<a href="https://careers.jobscore.com/careers/maqsoftware"
 								class="btn-primary btn-text"
-								target="_blank">Go to Jobscore</a>
+								target="_blank">Go to JobScore</a>
 						</div>
                     </div>
                 </div>
@@ -332,6 +328,7 @@
 			<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3JCAhNj6tVAO_LSb8M-AzMlidiT-RPAs"></script> -->
 			<!-- <script src="/js/timber.master.min.js"></script> -->
 
+
 			<script src="/js/common.js?v=20211215.1"></script>
 			<script src="/js/careers.js?v=20220905.1" type="text/javascript"></script>
 			<script src="js/sidenav.js"></script>
@@ -369,6 +366,20 @@
 					}
 				});
 			</script>
+
+			<script>
+				// Load header and add event listeners
+				// Current work around for sidenav.js DOM load issue
+				$("#header").load("/header.html");
+				$(document).on("click", ".icon-menu-hamburger", function() {
+					$("#navbar-right").toggleClass("closed");
+				});
+
+				$(document).on("click", ".dismiss-button", function() {
+					$("#navbar-right").toggleClass("closed");
+				});
+			</script>
+			
 		</div>
 	</div>
 </body>

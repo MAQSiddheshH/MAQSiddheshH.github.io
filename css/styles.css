@@ -89,6 +89,15 @@ h1{
 
 }
 
+h1.hero {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  margin-bottom: 1rem;
+
+}
+
 h1.big{
 
     font-family: "Roboto", sans-serif;
@@ -156,6 +165,18 @@ h1.big{
     font-size: 1.75em;
     line-height: 120%;
      
+  }
+
+  .guide-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+  }
+
+  .guide-list > li{
+    margin-bottom: 0.5em;
   }
   
   .body-text{
@@ -581,6 +602,20 @@ p{
   margin-top: 1em;
 }
 
+.hero-image-background {
+  position :relative;
+  background-image: url('../images-new/MAQ-homepage-images-webp/hero-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 4%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  /* margin-top: 1em; */
+  text-align: center;
+}
+
 .width-who-we-are-left{
   width: 35%;
 }
@@ -960,6 +995,10 @@ p{
 
 
 /* Images & Icons */
+
+.guide-img {
+  margin-bottom: 36px;
+}
 
 .homepage-feature-img{
   max-height: 300px;
@@ -3231,6 +3270,9 @@ img .accordion-img{
 }
 
 @media screen and (max-width: 768px) {
+  .post-title{
+    font-size: 2.25em;
+  }
   .banner-text {
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -3493,7 +3535,7 @@ img .accordion-img{
   .customer-stories-card{
     width: 24.15%;
   }
-  h1.big{
+  h1.big, h1.hero{
     font-size: 4rem;
   }
   .section-subheading-body {
@@ -3619,7 +3661,7 @@ img .accordion-img{
   .mb-grid-insights{
     flex-direction: column;
   }
-  h1.big{
+  h1.big, h1.hero{
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
   }
